@@ -134,6 +134,56 @@ async function loadRepos() {
   });
 })();
 
+// Theme picker
+(function initThemePicker() {
+  const btn  = document.getElementById('theme-btn');
+  const menu = document.getElementById('theme-menu');
+  if (!btn || !menu) return;
+
+  function applyTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
+    menu.querySelectorAll('.theme-opt').forEach(opt => {
+      opt.setAttribute('aria-checked', opt.dataset.theme === theme ? 'true' : 'false');
+    });
+  }
+
+  // Reflect the already-applied theme (set by the inline head script)
+  applyTheme(document.documentElement.getAttribute('data-theme') || 'dark');
+
+  function openMenu() {
+    menu.hidden = false;
+    btn.setAttribute('aria-expanded', 'true');
+    menu.querySelector('[aria-checked="true"]')?.focus();
+  }
+
+  function closeMenu() {
+    menu.hidden = true;
+    btn.setAttribute('aria-expanded', 'false');
+  }
+
+  btn.addEventListener('click', e => {
+    e.stopPropagation();
+    menu.hidden ? openMenu() : closeMenu();
+  });
+
+  menu.querySelectorAll('.theme-opt').forEach(opt => {
+    opt.addEventListener('click', () => {
+      applyTheme(opt.dataset.theme);
+      closeMenu();
+      btn.focus();
+    });
+  });
+
+  document.addEventListener('click', e => {
+    if (!e.target.closest('#theme-picker')) closeMenu();
+  });
+
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && !menu.hidden) { closeMenu(); btn.focus(); }
+  });
+})();
+
 // Load repos on DOM ready
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', loadRepos);
