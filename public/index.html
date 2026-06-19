@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yeo Kat Long — Graphics &amp; Systems Programmer</title>
+  <meta name="description" content="Portfolio of Yeo Kat Long, graphics and systems programmer specialising in real-time interactive simulation and custom game engine development." />
+  <meta property="og:title" content="Yeo Kat Long — Graphics &amp; Systems Programmer" />
+  <meta property="og:description" content="C++, OpenGL, and assembly-level systems programming. Custom game engines built from scratch." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Inter:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="site-nav">
+    <a class="nav-logo" href="#hero">YKL</a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-links">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links" role="list">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#repos">Repos</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="container hero-content">
+      <p class="hero-eyebrow">// graphics &amp; systems programmer</p>
+      <h1 class="hero-name">Yeo Kat Long<span class="cursor" aria-hidden="true">_</span></h1>
+      <p class="hero-tagline">Building custom game engines — from physics integration to OpenGL rendering pipelines — one allocation at a time.</p>
+      <div class="hero-links">
+        <a class="btn btn-primary" href="mailto:katlong0709@gmail.com">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          Email
+        </a>
+        <a class="btn btn-secondary" href="https://github.com/katlong0709" target="_blank" rel="noopener noreferrer">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.604-3.369-1.342-3.369-1.342-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836a9.59 9.59 0 0 1 2.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+          GitHub
+        </a>
+        <a class="btn btn-secondary" href="https://linkedin.com/in/yeo-kat-long" target="_blank" rel="noopener noreferrer">
+          <!-- TODO: update with your actual LinkedIn URL -->
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          LinkedIn
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <span class="section-label">About</span>
+      <h2 class="section-title">The programmer behind the pipeline</h2>
+      <p class="about-text">
+        I'm a <strong>Computer Science student at DigiPen Institute of Technology Singapore</strong>, specialising in real-time interactive simulation and graphics programming. Over three years I've shipped two custom game engines with my teams — integrating physics, building OpenGL rendering systems, and wiring up font rendering and 2D animation from scratch.
+      </p>
+      <p class="about-text" style="margin-top:1.25rem;">
+        I'm comfortable working low in the stack: <strong>C++ memory management, x86-64 AT&amp;T assembly, and the draw-call path from CPU to framebuffer</strong>. Before DigiPen I completed a Diploma in Electronics at Temasek Polytechnic, which gave me a grounding in hardware that shapes how I think about performance. I also teach as a TA for High-Level Programming and tutor first-year modules through the Academic Support Centre.
+      </p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <span class="section-label">Skills</span>
+      <h2 class="section-title">What I work with</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <p class="skill-group-title">Core Languages</p>
+          <div class="skill-tags">
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">x86-64 Assembly</span>
+            <span class="skill-tag">GLSL</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <p class="skill-group-title">Graphics &amp; Systems</p>
+          <div class="skill-tags">
+            <span class="skill-tag">OpenGL</span>
+            <span class="skill-tag">Real-Time Rendering</span>
+            <span class="skill-tag">Physics Integration</span>
+            <span class="skill-tag">2D Animation</span>
+            <span class="skill-tag">Font Rendering</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <p class="skill-group-title">CS Foundations</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Data Structures</span>
+            <span class="skill-tag">Networking (Lockstep)</span>
+            <span class="skill-tag">Linear Algebra</span>
+            <span class="skill-tag">Calculus</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <p class="skill-group-title">Tools</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Visual Studio</span>
+            <span class="skill-tag">Godot Engine</span>
+            <span class="skill-tag">Octave</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <p class="skill-group-title">Languages</p>
+          <div class="skill-tags">
+            <span class="skill-tag">English — Fluent</span>
+            <span class="skill-tag">Mandarin — Proficient</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <span class="section-label">Projects</span>
+      <h2 class="section-title">Engine work</h2>
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <div class="project-meta">
+            <span class="project-period">Sep 2024 – Apr 2025</span>
+            <span class="project-team">12-person team</span>
+          </div>
+          <h3 class="project-title">Left Behind</h3>
+          <p class="project-desc">3D custom game engine and game. Responsible for integrating <strong>Jolt Physics</strong> — a high-performance rigid-body simulation library — into the engine's core systems.</p>
+          <div class="project-tags">
+            <span class="project-tag">C++</span>
+            <span class="project-tag">OpenGL</span>
+            <span class="project-tag">Jolt Physics</span>
+            <span class="project-tag">3D Engine</span>
+          </div>
+          <a class="project-link" href="https://github.com/katlong0709" target="_blank" rel="noopener noreferrer">
+            View on GitHub
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg>
+          </a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-meta">
+            <span class="project-period">Sep 2023 – Apr 2024</span>
+            <span class="project-team">8-person team</span>
+          </div>
+          <h3 class="project-title">RicoShaman</h3>
+          <p class="project-desc">2D custom game engine and game. Built the <strong>OpenGL graphics rendering system</strong>, integrated FreeType for font rendering, and implemented the 2D animation system end-to-end.</p>
+          <div class="project-tags">
+            <span class="project-tag">C++</span>
+            <span class="project-tag">OpenGL</span>
+            <span class="project-tag">FreeType</span>
+            <span class="project-tag">2D Animation</span>
+          </div>
+          <a class="project-link" href="https://github.com/katlong0709" target="_blank" rel="noopener noreferrer">
+            View on GitHub
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg>
+          </a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-meta">
+            <span class="project-period">Mar 2024 – Apr 2024</span>
+            <span class="project-team">6-person team</span>
+          </div>
+          <h3 class="project-title">Multiplayer Shooter</h3>
+          <p class="project-desc">Small-scale multiplayer shooting game. Responsible for the <strong>client-side lockstep framework</strong> and lockstep packet template base structure — keeping game state deterministically in sync across clients.</p>
+          <div class="project-tags">
+            <span class="project-tag">C++</span>
+            <span class="project-tag">Lockstep Networking</span>
+            <span class="project-tag">Multiplayer</span>
+          </div>
+          <a class="project-link" href="https://github.com/katlong0709" target="_blank" rel="noopener noreferrer">
+            View on GitHub
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg>
+          </a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-meta">
+            <span class="project-period">Jan 2026</span>
+            <span class="project-team">Global Game Jam SG</span>
+          </div>
+          <h3 class="project-title">Game Jam Entry</h3>
+          <p class="project-desc">Participated in <strong>Global Game Jam Singapore 2026</strong>, designing and building a game in 48 hours using the Godot Engine.</p>
+          <div class="project-tags">
+            <span class="project-tag">Godot</span>
+            <span class="project-tag">GDScript</span>
+            <span class="project-tag">48-hour jam</span>
+          </div>
+          <a class="project-link" href="https://github.com/katlong0709" target="_blank" rel="noopener noreferrer">
+            View on GitHub
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg>
+          </a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- REPOS -->
+  <section id="repos">
+    <div class="container">
+      <span class="section-label">GitHub</span>
+      <h2 class="section-title">Public repositories</h2>
+      <div class="repos-grid" id="repos-grid">
+        <p class="repos-loading">Loading repositories…</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container contact-inner">
+      <span class="section-label">Contact</span>
+      <h2 class="section-title">Let's talk</h2>
+      <p class="contact-text">I'm actively looking for internship and full-time opportunities in graphics, systems, or game engine programming. Drop me a line.</p>
+      <div class="contact-links">
+        <a class="btn btn-primary" href="mailto:katlong0709@gmail.com">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          katlong0709@gmail.com
+        </a>
+        <a class="btn btn-secondary" href="https://github.com/katlong0709" target="_blank" rel="noopener noreferrer">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.604-3.369-1.342-3.369-1.342-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836a9.59 9.59 0 0 1 2.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+          github.com/katlong0709
+        </a>
+        <a class="btn btn-secondary" href="https://linkedin.com/in/yeo-kat-long" target="_blank" rel="noopener noreferrer">
+          <!-- TODO: update with your actual LinkedIn URL -->
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          LinkedIn
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Built by Yeo Kat Long &mdash; plain HTML, CSS, and vanilla JS</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
