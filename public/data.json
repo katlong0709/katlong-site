@@ -1,0 +1,132 @@
+{
+  "hero": {
+    "name": "Yeo Kat Long",
+    "eyebrow": "// graphics & systems programmer",
+    "tagline": "Building custom game engines — from physics integration to OpenGL rendering pipelines — one allocation at a time.",
+    "email": "katlong0709@gmail.com",
+    "github": "https://github.com/katlong0709",
+    "linkedin": "https://linkedin.com/in/yeo-kat-long",
+    "githubUser": "katlong0709"
+  },
+  "about": {
+    "label": "About",
+    "title": "The programmer behind the pipeline",
+    "paragraphs": [
+      "I'm a <strong>Computer Science student at DigiPen Institute of Technology Singapore</strong>, specialising in real-time interactive simulation and graphics programming. Over three years I've shipped two custom game engines with my teams — integrating physics, building OpenGL rendering systems, and wiring up font rendering and 2D animation from scratch.",
+      "I'm comfortable working low in the stack: <strong>C++ memory management, x86-64 AT&amp;T assembly, and the draw-call path from CPU to framebuffer</strong>. Before DigiPen I completed a Diploma in Electronics at Temasek Polytechnic, which gave me a grounding in hardware that shapes how I think about performance. I also teach as a TA for High-Level Programming and tutor first-year modules through the Academic Support Centre."
+    ]
+  },
+  "projects": {
+    "label": "Projects",
+    "title": "Engine work",
+    "items": [
+      {
+        "period": "Sep 2024 – Apr 2025",
+        "team": "12-person team",
+        "title": "Left Behind",
+        "desc": "3D custom game engine and game. Responsible for integrating <strong>Jolt Physics</strong> — a high-performance rigid-body simulation library — into the engine's core systems.",
+        "tags": ["C++", "OpenGL", "Jolt Physics", "3D Engine"],
+        "link": "https://github.com/katlong0709"
+      },
+      {
+        "period": "Sep 2023 – Apr 2024",
+        "team": "8-person team",
+        "title": "RicoShaman",
+        "desc": "2D custom game engine and game. Built the <strong>OpenGL graphics rendering system</strong>, integrated FreeType for font rendering, and implemented the 2D animation system end-to-end.",
+        "tags": ["C++", "OpenGL", "FreeType", "2D Animation"],
+        "link": "https://github.com/katlong0709"
+      },
+      {
+        "period": "Mar 2024 – Apr 2024",
+        "team": "6-person team",
+        "title": "Multiplayer Shooter",
+        "desc": "Small-scale multiplayer shooting game. Responsible for the <strong>client-side lockstep framework</strong> and lockstep packet template base structure — keeping game state deterministically in sync across clients.",
+        "tags": ["C++", "Lockstep Networking", "Multiplayer"],
+        "link": "https://github.com/katlong0709"
+      },
+      {
+        "period": "Jan 2026",
+        "team": "Global Game Jam SG",
+        "title": "Game Jam Entry",
+        "desc": "Participated in <strong>Global Game Jam Singapore 2026</strong>, designing and building a game in 48 hours using the Godot Engine.",
+        "tags": ["Godot", "GDScript", "48-hour jam"],
+        "link": "https://github.com/katlong0709"
+      }
+    ]
+  },
+  "skills": {
+    "label": "Skills",
+    "title": "What I work with",
+    "groups": [
+      {
+        "name": "Core Languages",
+        "tags": ["C++", "x86-64 Assembly", "GLSL"]
+      },
+      {
+        "name": "Graphics & Systems",
+        "tags": ["OpenGL", "Real-Time Rendering", "Physics Integration", "2D Animation", "Font Rendering"]
+      },
+      {
+        "name": "CS Foundations",
+        "tags": ["Data Structures", "Networking (Lockstep)", "Linear Algebra", "Calculus"]
+      },
+      {
+        "name": "Tools",
+        "tags": ["Visual Studio", "Godot Engine", "Octave"]
+      },
+      {
+        "name": "Languages",
+        "tags": ["English — Fluent", "Mandarin — Proficient"]
+      }
+    ]
+  },
+  "experience": {
+    "label": "Experience",
+    "title": "Where I've contributed",
+    "items": [
+      {
+        "period": "Jun 2026 – Present",
+        "title": "SNAIC Applied AI Trainee",
+        "org": "SIT x NVIDIA AI Centre — Singapore",
+        "desc": "Contributing to customised AI model development and applied research at the SIT–NVIDIA AI Centre, building expertise in <strong>generative AI and foundation models</strong> on state-of-the-art infrastructure including the NVIDIA DGX H200."
+      },
+      {
+        "period": "May 2025 – Apr 2026",
+        "title": "Application Programmer",
+        "org": "ST Engineering — Singapore",
+        "desc": "Built a custom PDF viewer in Godot using <strong>gdCEF and PDF.js</strong> to display and programmatically control documents unsupported natively by the engine. Separately designed an offline <strong>SQLite database synchronisation system</strong> to keep data consistent across devices in internet-restricted environments."
+      },
+      {
+        "period": "Jan 2024 – Dec 2024",
+        "title": "Student Teaching Assistant",
+        "org": "DigiPen Institute of Technology Singapore — Singapore",
+        "desc": "Assist in delivering the <strong>High-Level Programming</strong> module — marking assessments, running lab sessions, and supporting students with C++ and object-oriented design."
+      },
+      {
+        "period": "Sep 2023 – Dec 2024",
+        "title": "Academic Support Centre Tutor",
+        "org": "DigiPen Institute of Technology Singapore — Singapore",
+        "desc": "Tutor first-year students one-on-one through the Academic Support Centre, covering core CS modules including programming fundamentals and discrete mathematics."
+      },
+      {
+        "period": "Aug 2022 – May 2026",
+        "title": "B.Sc. Computer Science in Real-Time Interactive Simulation",
+        "org": "DigiPen Institute of Technology — Singapore Institute of Technology — Singapore",
+        "desc": "Specialising in graphics programming, physics simulation, and systems-level C++. Built two full custom game engines across year-long team projects. CGPA: <strong>4.06</strong>."
+      }
+    ]
+  },
+  "repos": {
+    "label": "GitHub",
+    "title": "Public repositories"
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let's talk",
+    "text": "I'm actively looking for internship and full-time opportunities in graphics, systems, or game engine programming. Drop me a line.",
+    "email": "katlong0709@gmail.com",
+    "github": "https://github.com/katlong0709",
+    "linkedin": "https://linkedin.com/in/yeo-kat-long"
+  },
+  "footer": "Built by Yeo Kat Long — plain HTML, CSS, and vanilla JS"
+}
